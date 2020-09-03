@@ -16,6 +16,13 @@ const GlboalStyles = createGlobalStyle`
     cursor: pointer;
   }
 
+  :root {
+    --text-color-white: #EAF2EF;
+    --text-color-black: #000000;
+    --color-primary: #521945;
+    --color-secondary: #3E1334;
+  }
+
 `;
 
 export default GlboalStyles;
