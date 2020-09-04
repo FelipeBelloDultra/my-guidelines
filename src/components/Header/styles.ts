@@ -6,7 +6,8 @@ export const Container = styled.header`
 
   > div {
     margin: 0 auto;
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
   }
 `;
 
