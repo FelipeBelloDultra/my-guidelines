@@ -56,6 +56,7 @@ export const Footer = styled.footer`
   background: #ebebeb;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   a {
     padding: 5px 20px;
