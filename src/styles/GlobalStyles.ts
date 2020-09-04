@@ -12,6 +12,10 @@ const GlboalStyles = createGlobalStyle`
     font: 16px 'Nunito', sans-serif;
   }
 
+  body {
+    background: #efefef;
+  }
+
   button {
     cursor: pointer;
   }
