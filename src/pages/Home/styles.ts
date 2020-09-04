@@ -52,17 +52,6 @@ export const ContainerText = styled.div`
       width: 100px;
       height: 100px;
     }
-
-    @media (max-width: 650px) {
-      width: 100%;
-      border: 0;
-
-      img {
-        padding: 20px 0;
-        width: 200px;
-        height: 200px;
-      }
-    }
   }
 
   @media (max-width: 650px) {
@@ -71,6 +60,17 @@ export const ContainerText = styled.div`
     span {
       width: 100%;
       padding: 0;
+    }
+
+    > div {
+      width: 100%;
+      border: 0;
+
+      img {
+        padding: 20px 0;
+        width: 200px;
+        height: 200px;
+      }
     }
   }
 `;
