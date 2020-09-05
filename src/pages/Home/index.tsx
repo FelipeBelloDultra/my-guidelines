@@ -32,7 +32,7 @@ const Home: React.FC = () => {
             className="linkedin"
             href="https://www.linkedin.com/in/felipebellodultra/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             LinkedIn
           </a>
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
             className="github"
             href="https://github.com/FelipeBelloDultra"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
