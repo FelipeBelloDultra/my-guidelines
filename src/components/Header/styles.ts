@@ -20,20 +20,28 @@ export const Menu = styled.ul`
   font-weight: bold;
 
   li {
+    padding: 10px 5px;
     display: inline-block;
     width: 25%;
     text-align: center;
     margin: 0 10px 25px;
 
     span {
-      padding: 10px 5px;
       cursor: pointer;
+      user-select: none;
       transition: all 0.2s;
       border-bottom: 3px solid var(--color-secondary);
 
       &:hover {
         color: #fff;
         border-bottom-color: var(--color-primary);
+      }
+    }
+
+    &:hover {
+      aside {
+        visibility: visible;
+        transform: translate(0, 12px);
       }
     }
   }
